@@ -1,0 +1,105 @@
+.company {
+
+	&__container {
+		width: 1000px;		
+		margin-left: auto;
+		margin-right: auto;		
+
+		&-photo {
+			float: left;
+			width: 250px;
+			height: 400px;			
+			background-image: url('../modules/images/ceophoto1.jpg');
+			background-size: cover;
+		}
+
+		&-text {
+			margin-top: 50px;
+			line-height: 1.5;
+			text-align: justify;
+			margin-left: 300px;
+
+			h1 {
+				font-family: Arial, sans-serif;
+				font-size: 30px;
+				font-weight: 500;
+			}
+		}
+
+		&-signature {
+			margin-left: 300px;
+			margin-bottom: 50px;
+
+			&-name {
+				margin-top: 30px;
+				margin-bottom: 0;
+				font-weight: bold;
+				font-style: italic;
+			}
+
+			&-post {
+				margin-top: 0;
+				line-height: 1.5;
+				font-style: italic;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.company {
+
+		&__container {
+			width: 900px;
+		}
+	}
+}
+
+@media screen and (max-width: 899px) {
+	.company {
+
+		&__container {
+			width: 600px;			
+
+			&-photo {
+				margin-right: 50px;				
+			}
+
+			&-text {
+				margin-left: 0;
+			}
+
+			&-signature {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.company {
+
+		&__container {
+			width: auto;
+			padding-right: 5px;
+			padding-left: 5px;
+
+			h1 {
+				font-size: 18px;
+			}
+
+			&-photo {
+				display: none;
+			}
+
+			&-text {
+				margin-left: 0;
+				margin-top: 20px;
+			}
+
+			&-signature {
+				margin-left: 0;
+			}
+		}
+	}
+}

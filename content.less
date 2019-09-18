@@ -1,0 +1,768 @@
+.content {
+	
+	&__container {
+		width: 1200px;		
+		margin-right: auto;
+		margin-left: auto;
+
+		&-text {
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: justify;
+			margin-top: 50px;
+
+			h1 {
+				font-family: Arial, sans-serif;
+				font-size: 30px;
+				font-weight: 500;
+			}
+
+			p {
+				line-height: 1.5;
+			}
+		}		
+
+		&-groups {
+			width: 1000px;
+			margin-right: auto;
+			margin-left: auto;
+
+			h1 {
+				text-align: center;
+			}
+
+			&-item {
+				font-family: Arial, sans-serif;
+
+				&-col1 {
+					width: 100px;
+					height: 100px;					
+					color: white;					
+					float: left;
+
+					img {
+						height: 100%;
+					}
+				}
+
+				&-col2 {					
+					margin-left: 150px;
+
+					&-head {
+						width: 500px;
+						height: 50px;
+						background-color: #333333;						
+						border-radius: 5px;
+						margin-bottom: 20px;
+
+						&-round {
+							background-color: #cc3333;
+							width: 18px;
+							height: 18px;
+							border-radius: 9px;
+							float: left;
+							margin-left: 20px;
+							margin-top: 15px;
+						}
+
+						h3 {
+							color: white;
+							padding-top: 15px;
+							padding-left: 50px;
+						}
+					}
+
+					p {
+						margin-top: 0;
+						margin-bottom: 0;
+						line-height: 1.5;
+						text-align: justify;
+					}
+
+					ul {
+						margin-top: 0;
+						padding-left: 16px;
+					}
+
+					li {
+						line-height: 1.5;
+						text-align: justify;
+					}
+				}
+			}
+		}
+
+		&-structure {
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+
+			h1 {
+				text-align: center;
+			}
+
+			&-intro {
+				font-family: Arial, sans-serif;				
+				line-height: 1.5;
+				text-align: justify;
+
+				h2 {					
+					text-align: left;					
+					font-weight: 500;
+				}
+			}
+
+			&-plan {
+
+				h2 {
+					text-align: center;
+				}
+				
+				&-head {					
+
+					&-col {
+						display: inline-block;
+						vertical-align: top;
+						width: 45%;						
+						margin-left: 30px;
+						text-align: center;
+						font-size: 20px;						
+
+						p {
+							margin-bottom: 15px;
+							margin-top: 15px;
+						}
+					}
+				}
+
+				&-part {
+					
+					&-col1 {
+						float: left;
+						width: 475px;						
+						border-radius: 5px;						
+						background-color: #8fbe30;
+						text-align: center;
+						color: white;						
+
+						p {
+							padding-bottom: 15px;
+							padding-top: 15px;
+							margin-top: 0;
+							margin-bottom: 0;
+						}
+					}
+
+					&-col2 {
+						margin-left: 525px;
+						width: 475px;						
+						border-radius: 5px;						
+						background-color: #8fbe30;
+						text-align: center;
+						color: white;						
+
+						p {
+							padding-bottom: 15px;
+							padding-top: 15px;
+						}
+					}
+
+					&-link {
+						a {
+							padding-bottom: 15px;
+							padding-top: 15px;
+							text-decoration: none;
+							display: block;
+							width: 100%;
+							height: 100%;					
+							color: white;
+							font-family: Arial, sans-serif;
+							font-size: 16px;
+
+							&::after {
+								content: '';
+								display: inline-block;
+								vertical-align: middle;
+								height: 100%;
+							}
+
+							&:hover {						
+								background-color: #1f7a7a;
+								border-radius: 5px;						
+							}
+						}
+					}
+				}
+
+				&-lunch {
+					background-color: #666666;					
+					text-align: center;
+					color: white;
+					font-size: 20px;
+					border-radius: 5px;
+
+					p {
+						padding-bottom: 10px;
+						padding-top: 10px;
+					}
+				}				
+
+				&-questions {
+					display: none;
+					background-color: #1f7a7a;
+					border-radius: 5px;
+					color: white;
+
+					h3 {
+						text-align: center;						
+						padding-top: 15px;
+						margin-bottom: 0;
+					}
+
+					p {
+						margin-left: 50px;
+						margin-bottom: 10px;
+						margin-top: 0;
+					}
+
+					ul {
+						margin-top: 0;
+						margin-left: 50px;
+						padding-left: 16px;
+						padding-bottom: 15px;
+						padding-right: 50px;
+					}
+
+					li {
+						line-height: 1.5;
+						text-align: justify;
+					}
+				}
+			}
+
+			&-directions {
+
+				h2 {					
+					text-align: justify;
+					font-weight: 500;
+				}
+
+				&-text {
+					width: 600px;
+					display: inline-block;
+					vertical-align: top;
+
+					ul {
+						margin-top: 0;						
+						padding-left: 16px;						
+					}
+
+					li {
+						line-height: 1.5;
+						text-align: justify;
+					}
+				}
+
+				&-photo {
+					display: inline-block;
+					vertical-align: top;
+					margin-left: 50px;
+					width: 330px;
+					height: 200px;					
+					background-image: url("../modules/images/congress.jpg");
+					background-size: cover;
+				}				
+			}			
+
+			&-expo {
+
+				h2 {					
+					text-align: justify;					
+					font-weight: 500;
+				}
+
+				&-text {
+					width: 600px;
+					display: inline-block;
+					vertical-align: top;					
+
+					p {						
+						margin-top: 0;
+						text-align: justify;
+						line-height: 1.5;
+					}
+				}
+
+				&-photo {
+					display: inline-block;
+					vertical-align: top;
+					margin-right: 50px;
+					width: 330px;
+					height: 200px;
+					background-image: url("../modules/images/fusion.jpg");
+					background-size: cover;
+				}			
+			}
+
+			&-afterparty {
+
+				h2 {					
+					text-align: justify;					
+					font-weight: 500;
+				}
+
+				&-text {
+					width: 600px;
+					display: inline-block;
+					vertical-align: top;								
+
+					p {						
+						margin-top: 0;
+						text-align: justify;
+						line-height: 1.5;
+					}
+				}
+
+				&-photo {
+					display: inline-block;
+					vertical-align: top;
+					margin-left: 50px;
+					width: 330px;
+					height: 200px;
+					background-image: url("../modules/images/voice.jpg");
+					background-size: cover;
+				}
+			}
+		}
+
+		&-conditions {
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 30px;
+
+			h1 {
+				text-align: center;
+			}
+
+			p {
+				margin-top: 0;
+				margin-bottom: 0;
+				line-height: 1.5;
+				text-align: justify;
+			}
+		}
+
+		&-sponsors {
+			text-align: center;
+
+			h1 {
+				text-align: center;
+			}
+			img {
+				height: 100px;
+				margin-right: 30px;
+			}
+		}
+
+		&-participants {
+			text-align: center;
+
+			h2 {
+				text-align: center;
+			}
+			img {
+				height: 100px;
+				margin-right: 30px;
+			}
+		}
+
+		&-mediapartners {
+			//text-align: center;
+			text-align: left;
+			width: 1000px;
+			margin-right: auto;
+			margin-left: auto;
+
+			h2 {
+				text-align: center;
+			}
+			
+			img {
+				height: 100px;
+				margin-right: 30px;
+				//opacity: 0.3;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.is-active {	
+	background-color: #1f7a7a;
+	border-radius: 5px;
+}
+
+.is-active-section {
+	display: block;
+}
+
+@media screen and (max-width: 1199px) {
+	.content {
+
+		&__container {
+			width: 900px;
+
+			&-text {
+				width: 900px;
+			}
+
+			&-groups {
+				width: 900px;
+			}
+
+			&-structure {
+				width: 900px;
+
+				&-plan {
+
+					&-part {
+
+						&-col1 {
+							width: 425px;
+						}
+
+						&-col2 {
+							width: 425px;
+							margin-left: 475px;
+						}
+					}
+				}
+
+				&-directions {
+
+					&-text {
+						width: 510px;
+					}
+
+					&-photo {
+
+					}
+				}
+
+				&-expo {
+
+					&-text {
+						width: 510px;
+					}
+				}
+
+				&-afterparty {
+
+					&-text {
+						width: 510px;
+					}
+				}
+			}
+
+			&-conditions {
+				width: 900px;
+			}
+
+			&-sponsors {
+
+			}
+
+			&-participants {
+
+			}
+
+			&-mediapartners {
+				width: 900px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 899px) {
+	.content {
+
+		&__container {
+			width: 600px;
+
+			&-text {
+				width: 600px;
+			}
+
+			&-groups {
+				width: 600px;
+
+				&-item {
+					&-col1 {
+
+					}
+
+					&-col2 {
+						margin-left: 130px;
+
+						&-head {
+							width: 470px;
+						}
+					}
+				}
+			}
+
+			&-structure {
+				width: 600px;
+
+				&-plan {
+
+					&-head {
+
+						&-col {							
+							width: 49.5%;
+							margin-left: 0;
+						}
+					}
+
+					&-part {
+
+						&-col1 {
+							width: 275px;
+						}
+
+						&-col2 {
+							width: 275px;
+							margin-left: 325px;
+						}
+					}
+				}
+
+				&-directions {
+
+					&-text {
+						width: 600px;
+					}
+
+					&-photo {
+						display: none;
+					}
+				}
+
+				&-expo {
+
+					&-photo {
+						
+					}
+
+					&-text {						
+						width: 210px;
+					}
+				}
+
+				&-afterparty {
+
+					&-text {						
+						width: 210px;						
+					}
+
+					&-photo {
+						
+					}
+				}
+			}
+
+			&-conditions {
+				width: 600px;
+			}
+
+			&-sponsors {
+
+			}
+
+			&-participants {
+
+			}
+
+			&-mediapartners {
+				width: 600px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.content {
+
+		&__container {
+			width: auto;
+			padding-left: 5px;
+			padding-right: 5px;
+
+			&-text {
+				width: auto;				
+
+				h1 {
+					font-size: 18px;
+				}
+
+				p {					
+					font-size: 16px;
+				}
+			}
+
+			&-groups {
+				width: auto;
+
+				h1 {
+					font-size: 18px;
+				}
+
+				&-item {
+					&-col1 {
+						display: none;
+					}
+
+					&-col2 {
+						margin-left: 0;
+
+						&-head {							
+							width: auto;
+							height: auto;							
+
+							h3 {
+								padding-bottom: 15px;
+							}
+						}
+					}
+				}
+			}
+
+			&-structure {
+				width: auto;
+
+				h1 {
+					font-size: 18px;
+				}
+
+				&-plan {
+
+					&-head {
+						display: none;
+
+						&-col {}
+					}
+
+					&-part {						
+
+						&-col1 {							
+							width: 48.5%;
+						}
+
+						&-col2 {							
+							width: 48.5%;
+							margin-left: 51.5%;
+						}
+
+						&-link {
+							a {
+								font-size: 14px;
+								height: 50px;
+							}
+						}
+					}
+
+					&-questions {
+					
+						p {							
+							margin-left: 0;
+							text-align: center;
+						}
+
+						ul {							
+							margin-left: 0;
+							padding-right: 3px;
+						}						
+					}
+				}
+
+				&-directions {
+
+					h2 {
+						font-size: 18px;
+					}
+
+					&-text {
+						width: auto;
+					}
+
+					&-photo {
+						display: none;
+					}
+				}
+
+				&-expo {
+
+					h2 {
+						font-size: 18px;
+					}
+
+					&-photo {						
+						width: 100%;
+						height: 250px;					
+					}
+
+					&-text {						
+						width: auto;
+					}
+				}
+
+				&-afterparty {
+
+					h2 {
+						font-size: 18px;
+					}
+
+					&-text {						
+						width: auto;						
+					}
+
+					&-photo {
+						width: 100%;
+						height: 250px;
+						margin-left: 0;
+					}
+				}
+			}
+
+			&-conditions {
+				width: auto;
+
+				h1 {
+					font-size: 18px;
+				}
+			}
+
+			&-sponsors {
+
+			}
+
+			&-participants {
+
+			}
+
+			&-mediapartners {
+				width: auto;
+
+				h2 {
+					font-size: 18px;
+				}
+
+				img {
+					height: 50px;
+				}
+			}
+		}
+	}
+}

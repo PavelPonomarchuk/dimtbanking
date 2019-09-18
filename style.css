@@ -1,0 +1,24 @@
+@import url(modules/header.css);
+@import url(modules/menu.css);
+@import url(modules/banner.css);
+@import url(modules/content.css);
+@import url(modules/footer.css);
+@import url(modules/program.css);
+@import url(modules/company.css);
+
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+span {
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'VenusRising-Regular';
+	src: url('fonts/venusrising-regular.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
